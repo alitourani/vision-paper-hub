@@ -1,4 +1,5 @@
 # Optical Character Recognition (OCR)
 
-| Approach | Link |
-| -------- | ---- |
+| Approach    | Link                     |
+| ----------- | ------------------------ |
+| **EasyOCR** | [🔗](easy-ocr/README.md) |
