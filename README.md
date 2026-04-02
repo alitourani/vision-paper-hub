@@ -6,6 +6,7 @@ A collection of **computer vision** papers with minimal Python implementations a
 
 - **[Depth Estimation](categories/depth-estimator/README.md)**
 - **[Optical Character Recognition (OCR)](categories/ocr/README.md)**
+- **[Semantic Segmentation](categories/semseg/README.md)**
 
 ## 🔑 License
 
