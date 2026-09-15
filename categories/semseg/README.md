@@ -2,4 +2,4 @@
 
 | Approach        | Link                        |
 | --------------- | --------------------------- |
-| **Mask2Former** | [🔗](mask2former/README.md) |
+| **Mask2Former** | [🔗](mask2former/) |

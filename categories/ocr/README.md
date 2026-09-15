@@ -2,5 +2,5 @@
 
 | Approach      | Link                      |
 | ------------- | ------------------------- |
-| **EasyOCR**   | [🔗](easy-ocr/README.md)  |
-| **Tesseract** | [🔗](tesseract/README.md) |
+| **EasyOCR**   | [🔗](easy-ocr/)  |
+| **Tesseract** | [🔗](tesseract/) |
