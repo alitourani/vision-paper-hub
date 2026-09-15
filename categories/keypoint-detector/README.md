@@ -2,4 +2,4 @@
 
 | Approach                           | Link                      |
 | ---------------------------------- | ------------------------- |
-| **RCNN - Human Pose Estimation**   | [🔗](rcnn-human-pose/)  |
+| **Keypoint RCNN - Human Pose Estimation**   | [🔗](rcnn-human-pose/)  |
