@@ -10,6 +10,8 @@ Apart from Detection2, the system uses **LSTM** for learning-order dependence in
 In fact, LSTM remembers the previous information and uses it optimally to process the current input (in our case, the previous and current human poses).
 For this project, an LSTM model trained on **[OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)** will be used, which is able to detect actions like Jumping, Boxing, Waving Hands, and Clapping.
 
+![Action Recognition](action-recognition.gif "")
+
 ## 🧠 How Does it Work?
 
 The pipeline of the framework is as follows:
@@ -17,8 +19,6 @@ The pipeline of the framework is as follows:
 - The system accepts a video input, iterates through the frames and uses *Detectron2* to do keypoint detection on every frame.
 - Keypoint results are appended to a buffer of size 32, which operates in a sliding window fashion. Contents of the buffer are sent to the trained LSTM model for action identification.
 - Actions detected by the pipeline are annotated on the video and displayed as the result.
-
-![Action Recognition](action-recognition.gif "")
 
 ## 💡 Applications
 
