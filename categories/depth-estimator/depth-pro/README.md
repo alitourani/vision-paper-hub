@@ -23,6 +23,18 @@ Moreover, it has a **Focal Length Estimation Head (FLEH)** where focal length is
 ## 💡 Applications
 
 This system can used for a wide range of different use cases like robotics, autonomous navigation, segmentation, etc.
+- Simulating the focal properties of real cameras (sharpening and blurring)
+- Depth blur for portrait mode simulation
+- 3D point cloud projection
+
+## 🚥 Limitations
+
+Note that while **Depth Pro** provides highly accurate depth maps, it has various limitations, as listed below:
+- Blurred subjects, like glasses
+- Foggy and cloudy scenes
+- Mirror reflections
+- Graffiti illusions
+- Video input (generates inconsistent and flickering depth throughout frames - Check [DepthCrafter](https://github.com/tencent/depthcrafter) for a video depth estimator)
 
 ## 🚀 Benchmark
 
