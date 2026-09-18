@@ -39,7 +39,7 @@ Note that while **Depth Pro** provides highly accurate depth maps, it has variou
 ## 🚀 Benchmark
 
 You can find the benchmark results of **Depth Pro** for depth estimation [here](depth-pro.ipynb).
-You can also find some implemented applications by **Depth Pro** [here](depth-pro-applications-ipynb).
+You can also find some implemented applications by **Depth Pro** [here](depth-pro-applications.ipynb).
 
 ## 📍 Links
 
