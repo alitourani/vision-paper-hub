@@ -5,9 +5,9 @@ A collection of **computer vision** papers with minimal Python implementations a
 ## 🚀 Categories
 
 - **[Depth Estimation](categories/depth-estimator/)**
-- **[Optical Character Recognition (OCR)](categories/ocr/)**
-- **[Semantic Segmentation](categories/semseg/)**
 - **[Keypoint Detection](categories/keypoint-detector/)**
+- **[Optical Character Recognition (OCR)](categories/ocr/)**
+- **[Segmentation, Classification, and Object Detection](categories/semseg/)**
 
 ## 🔑 License
 

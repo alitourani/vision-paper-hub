@@ -2,6 +2,6 @@
 
 ![Depth Estimation](depth-estimation.jpg "")
 
-| Approach                         | Link                              |
-| -------------------------------- | --------------------------------- |
-| **Depth Pro (Apple ML)**         | [🔗](depth-pro/)                 |
+| Approach                                | Link                              |
+| --------------------------------------- | --------------------------------- |
+| [2024] **Depth Pro (Apple ML)**         | [🔗](depth-pro/)                 |
