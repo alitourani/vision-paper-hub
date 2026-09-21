@@ -2,6 +2,8 @@
 
 **YOLO v.26** is a new You Only Look Once (YOLO) model introduced in January 2026, which is marginally lighter, faster, and more accurate than previous versions.
 Compared to the previous versions, it removes components that complicate deployment and is optimized for CPU, GPU, and NPUs.
+There is also another variant of YOLO, called **YOLOE-26**, that supports text and visual-prompted instance segmentation, enabling detection of open-vocabulary object detection.
+According to the paper, **YOLOv26** performs up to 43% faster on CPUs compared to *YOLOv12*, providing sub-2ms latency for the Nano model on T4 GPUs.
 
 ![YOLO26](yolo26.jpg "")
 
@@ -13,21 +15,16 @@ Additionally, it removes processes for improved bounding box precision (DFL) and
 
 ## 💡 Applications
 
-It covers a wide range of applications in classic computer vision systems, mobile robotics, various devices, and embedded systems.
+It covers a wide range of applications in classic computer vision systems, mobile robotics, various devices, and embedded systems:
 
-## 🚥 Limitations
-
-Note that while **Depth Pro** provides highly accurate depth maps, it has various limitations, as listed below:
-- Blurred subjects, like glasses
-- Foggy and cloudy scenes
-- Mirror reflections
-- Graffiti illusions
-- Video input (generates inconsistent and flickering depth throughout frames - Check [DepthCrafter](https://github.com/tencent/depthcrafter) for a video depth estimator)
+- Robotics application for deterministic latency enables smoother control loops
+- Manufacturing applications for improved small-object detection for defect inspection
+- Drones for lower compute and power requirements extend flight time
+- Mobile & Embedded Vision applications for clean INT8/FP16 deployment without custom post-processing
 
 ## 🚀 Benchmark
 
-You can find the benchmark results of **Depth Pro** for depth estimation [here](depth-pro.ipynb).
-You can also find some implemented applications by **Depth Pro** [here](depth-pro-applications.ipynb).
+You can find the benchmark results of **YOLO v.26** for object detection, semantic segmentation, and image classification [here](yolov26.ipynb).
 
 ## 📍 Links
 
