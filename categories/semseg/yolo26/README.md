@@ -5,13 +5,15 @@ Compared to the previous versions, it removes components that complicate deploym
 There is also another variant of YOLO, called **YOLOE-26**, that supports text and visual-prompted instance segmentation, enabling detection of open-vocabulary object detection.
 According to the paper, **YOLOv26** performs up to 43% faster on CPUs compared to *YOLOv12*, providing sub-2ms latency for the Nano model on T4 GPUs.
 
-![YOLO26](yolo26.jpg "")
+![YOLO26](yolo26.gif "")
 
 ## 🧠 How Does it Work?
 
 **YOLO v.26** adds modifications by introducing transformer blocks, regression heads, and post-processing pipelines.
 While traditional YOLO models depend on processes to remove duplicate bounding boxes (NMS), YOLOv26 introduces a One-to-One detection head, enabling the model to directly predict a fixed set of object hypotheses.
 Additionally, it removes processes for improved bounding box precision (DFL) and replaces it with a simplified regression head, making it far easier to deploy on platforms like Jetson Orin and Raspberry Pi.
+
+![YOLO26](yolo26.jpg "")
 
 ## 💡 Applications
 
