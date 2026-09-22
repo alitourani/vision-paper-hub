@@ -24,7 +24,7 @@ It covers a wide range of applications in classic computer vision systems, mobil
 
 ## 🚀 Benchmark
 
-You can find the benchmark results of **YOLO v.26** for object detection, semantic segmentation, and image classification [here](yolov26.ipynb).
+You can find the benchmark results of **YOLO v.26** for object detection, semantic segmentation, and image classification [here](yolov26.ipynb). Also, another example for video-based object detection using **YOLO v.26** is available [here](yolov26_video.ipynb).
 
 ## 📍 Links
 
